@@ -5,10 +5,10 @@ import statistics
 def main_menu():
     while True:
         print("\n===== Календарь-помощник =====")
-        print("1. Управление днями рождения")
-        print("2. Управление сборами")
-        print("3. Статистика")
-        print("0. Выход")
+        print("1. Управление днями рождения 🎊")
+        print("2. Управление сборами 🎁")
+        print("3. Статистика 📊")
+        print("0. Выход 💠")
         choice = input("Ваш выбор: ").strip()
         if choice == "1":
             birthday_menu()
@@ -17,7 +17,7 @@ def main_menu():
         elif choice == "3":
             statistics.export_statistics()
         elif choice == "0":
-            print("До свидания!")
+            print("Выход...")
             break
         else:
             print("Неверный ввод.")
@@ -25,11 +25,11 @@ def main_menu():
 def birthday_menu():
     while True:
         print("\n--- Дни рождения ---")
-        print("1. Добавить человека")
-        print("2. Показать все записи")
-        print("3. Дни рождения в текущем месяце")
+        print("1. Добавить человека 🆕")
+        print("2. Показать все записи #️⃣")
+        print("3. Дни рождения в текущем месяце 🎉")
         print("4. Дни рождения в выбранном месяце")
-        print("5. Удалить человека")
+        print("5. Удалить человека ⭕️")
         print("0. Назад")
         choice = input("Выбор: ").strip()
         if choice == "1":
